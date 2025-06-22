@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ConnectWallet } from '@coinbase/onchainkit';
 
 export default function Home() {
   return (
@@ -24,6 +25,10 @@ export default function Home() {
             Save and see your changes instantly.
           </li>
         </ol>
+
+        <div className="flex justify-center my-8">
+          <ConnectWallet />
+        </div>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a

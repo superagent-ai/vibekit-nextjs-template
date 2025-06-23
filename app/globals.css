@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import '@coinbase/onchainkit/styles.css';
 
 @custom-variant dark (&:is(.dark *));
 

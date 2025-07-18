@@ -12,13 +12,15 @@
     "test:ui": "vitest --ui"
   },
   "dependencies": {
+    "@coinbase/onchainkit": "^0.46.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.513.0",
     "next": "15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwind-merge": "^3.3.0"
+    "tailwind-merge": "^3.3.0",
+    "wagmi": "^2.10.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
